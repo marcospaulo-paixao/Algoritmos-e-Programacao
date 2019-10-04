@@ -1,12 +1,13 @@
-// CURSO:.Análise e Desenvolvimento de Sistemas
-// DISCIPLINA:.Algoritmos e Programação
-// ALUNO:.Marcos Paulo Pereira da Paixão
-// Lista de Exercícios – N2 
-//
-// 4. Escreva um programa que leia o nome e a idade de vários usuários, e imprima a
-// seguinte mensagem “O usuário *nome* tem *anos* anos de vida”. O programa deverá
-// continuar executando enquanto o usuário informar que deseja continuar.
-//
+/**
+ * CURSO:.Análise e Desenvolvimento de Sistemas
+ * DISCIPLINA:.Algoritmos e Programação
+ * ALUNO:.Marcos Paulo Pereira da Paixão
+ * Lista de Exercícios – N2
+ *
+ * 4. Escreva um programa que leia o nome e a idade de vários usuários, e imprima a
+ * seguinte mensagem “O usuário *nome* tem *anos* anos de vida”. O programa deverá
+ * continuar executando enquanto o usuário informar que deseja continuar.
+ */
 package Lista_de_Exercicios_N2;
 
 import java.util.Scanner;

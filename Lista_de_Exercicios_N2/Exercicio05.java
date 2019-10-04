@@ -1,12 +1,15 @@
-// CURSO:.Análise e Desenvolvimento de Sistemas
-// DISCIPLINA:.Algoritmos e Programação
-// ALUNO:.Marcos Paulo Pereira da Paixão
-// Lista de Exercícios – N2 
-//
-// 5. Faça um programa que leia um número indeterminado de números, calcule e mostre a
-// soma dos números digitados, a quantidade de números digitados e a média dos números
-// digitados.
-//
+/**
+ * CURSO:.Análise e Desenvolvimento de Sistemas
+ * DISCIPLINA:.Algoritmos e Programação
+ * ALUNO:.Marcos Paulo Pereira da Paixão
+ * Lista de Exercícios – N2
+ *
+ * 5. Faça um programa que leia um número indeterminado de números, calcule e mostre a
+ * soma dos números digitados, a quantidade de números digitados e a média dos números
+ * digitados.
+ *
+ *
+ */
 package Lista_de_Exercicios_N2;
 
 import java.util.Scanner;

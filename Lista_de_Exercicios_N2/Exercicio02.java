@@ -1,12 +1,13 @@
-// CURSO:.Análise e Desenvolvimento de Sistemas
-// DISCIPLINA:.Algoritmos e Programação
-// ALUNO:.Marcos Paulo Pereira da Paixão
-// Lista de Exercícios – N2 
-//
-// 2. Escreva um programa que receba a idade de várias pessoas (para teste utilize 10
-// pessoas). Calcule e imprima: a quantidade de pessoas com até 18 anos; quantidade de
-// pessoas entre 18 e 65 anos; quantidade de pessoas com mais de 65 anos.
-//
+/**
+ * CURSO:.Análise e Desenvolvimento de Sistemas
+ * DISCIPLINA:.Algoritmos e Programação
+ * ALUNO:.Marcos Paulo Pereira da Paixão
+ * Lista de Exercícios – N2
+ *
+ * 2. Escreva um programa que receba a idade de várias pessoas (para teste utilize 10
+ * pessoas). Calcule e imprima: a quantidade de pessoas com até 18 anos; quantidade de
+ * pessoas entre 18 e 65 anos; quantidade de pessoas com mais de 65 anos.
+ */
 package Lista_de_Exercicios_N2;
 
 import java.util.Scanner;
@@ -26,13 +27,13 @@ public class Exercicio02 {
         int qntPessoa65 = 0;
         int cont = 1;
         int idade;
-        
+
         // Entrada
         while (cont != 10) {
-            
+
             System.out.printf("%s\n", txt1);
             idade = entrada.nextInt();
-            
+
             // Processamento
             while (idade <= 0) {
                 System.out.printf("%s\n%s\n", txt2, txt1);
@@ -50,8 +51,5 @@ public class Exercicio02 {
         System.out.printf("%d %s\n", qntPessoa18, txt3);
         System.out.printf("%d %s\n", qntPessoa18e65, txt4);
         System.out.printf("%d %s\n", qntPessoa65, txt5);
-    }        
+    }
 }
-
-
-
