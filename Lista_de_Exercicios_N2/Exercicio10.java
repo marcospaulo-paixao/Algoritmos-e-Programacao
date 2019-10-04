@@ -19,6 +19,7 @@ public class Exercicio10 {
         int qntNumeros = 0;
         int numero;
         boolean sair = false;
+
         // Entrada
         while (!sair) {
             System.out.printf("Informe um numero inteiro positivo: ");
