@@ -43,6 +43,7 @@ public class Exercicio08 {
             }
             inicial++;
         }
+        
         // Saida
         divisiveis = divisiveis.substring(0, divisiveis.length() - 2);
         System.out.println("Números divisíveis por " + divisor + " no intervalo de " + iniAux + " a " + fim + ": " + divisiveis + ".");
