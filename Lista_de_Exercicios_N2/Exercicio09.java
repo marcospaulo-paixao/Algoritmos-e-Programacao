@@ -9,16 +9,14 @@
  */
 package Lista_de_Exercicios_N2;
 
-import java.util.Scanner;
 
 public class Exercicio09 {
 
     public static void main(String[] args) {
-        // Variaveis
-        Scanner input = new Scanner(System.in);
 
-        // Entrada
+        // Variaveis
         int cont = 1;
+
         // Processamento
         while (cont <= 300) {
             // Saida
