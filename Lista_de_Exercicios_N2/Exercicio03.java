@@ -13,9 +13,9 @@ import java.util.Scanner;
 public class Exercicio03 {
 
     public static void main(String[] args) {
+        // Variaveis
         Scanner entrada = new Scanner(System.in);
         String txt1 = "º Numero.";
-
         int menor = 2147483647;
         int maior = -2147483648;
         int cont = 1;
@@ -23,12 +23,13 @@ public class Exercicio03 {
         int aux = 0;
         double soma = 0.0;
         double media;
-
+        
+        // Entrada
         while (cont <= 10) {
             System.out.printf("%d%s\n", cont, txt1);
-
             numero = entrada.nextInt();
 
+            // Processamento
             if (numero < menor) {
                 menor = numero;
             }
@@ -43,6 +44,7 @@ public class Exercicio03 {
 
         media = soma / 10;
 
+        // Saida
         System.out.printf("Maior = %d\n", maior);
         System.out.printf("Menor = %d\n", menor);
         System.out.printf("Media = %.2f\n", media);

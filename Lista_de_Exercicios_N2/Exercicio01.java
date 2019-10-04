@@ -17,18 +17,20 @@ import java.util.Scanner;
 public class Exercicio01 {
 
     public static void main(String[] args) {
+        // Variaveis
         Scanner entrada = new Scanner(System.in);
         String txt1 = "Informe o valor inicial do contador:";
         String txt2 = "Informe o valor final do contador:";
-
         int cont;
-
+        
+        // Entrada        
         System.out.printf("%s\n", txt1);
         int contIn = entrada.nextInt();
 
         System.out.printf("%s\n", txt2);
         int contFin = entrada.nextInt();
-
+        
+        // Processamento
         if (contIn > contFin) {
             cont = contIn;
             contIn = contFin;
@@ -36,6 +38,7 @@ public class Exercicio01 {
         }
 
         while (contIn != contFin) {
+            // Saida
             System.out.printf("%d\n", contIn);
             contIn++;
         }
