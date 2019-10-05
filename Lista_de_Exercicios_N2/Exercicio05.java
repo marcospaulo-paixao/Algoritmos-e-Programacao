@@ -27,7 +27,7 @@ public class Exercicio05 {
         // Entrada
         while (!sair) {
 
-            System.out.printf("Digite s para sair ou um Numero: ");
+            System.out.printf("Digite s para sair ou um Número: ");
             entrada = input.next();
 
             // Processamento

@@ -16,7 +16,7 @@ public class Exercicio03 {
     public static void main(String[] args) {
         // Variaveis
         Scanner entrada = new Scanner(System.in);
-        String txt1 = "º Numero.";
+        String txt1 = "º Número.";
         int menor = 2147483647;
         int maior = -2147483648;
         int cont = 1;

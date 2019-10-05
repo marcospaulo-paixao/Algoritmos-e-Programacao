@@ -23,14 +23,14 @@ public class Exercicio12 {
 
         // Entrada
         while (!sair) {
-            System.out.printf("Informe o 1º numero:");
+            System.out.printf("Informe o 1º número:");
             n1 = input.nextInt();
-            System.out.printf("Informe o 2º numero:");
+            System.out.printf("Informe o 2º número:");
             n2 = input.nextInt();
             
             // Processamento
             if (n1 > n2) {
-                System.out.printf("O Primerio numero é maior que o Segundo numero!\n");
+                System.out.printf("O Primerio número é maior que o Segundo número!\n");
             } else {
                 n2aux = (double) (n2);
 

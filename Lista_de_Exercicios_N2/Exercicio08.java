@@ -29,11 +29,11 @@ public class Exercicio08 {
         System.out.printf("Informe o divisor:");
         divisor = entrada.nextInt();
 
-        System.out.printf("Informe o numero inicial:");
+        System.out.printf("Informe o número inicial:");
         inicial = entrada.nextInt();
         int iniAux = inicial;
 
-        System.out.printf("Informe o numero final:");
+        System.out.printf("Informe o número final:");
         fim = entrada.nextInt();
 
         // Processamento

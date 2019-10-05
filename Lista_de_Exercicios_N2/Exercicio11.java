@@ -21,11 +21,11 @@ public class Exercicio11 {
         double N, media = 0, soma = 0.0;
 
         // Entrada
-        System.out.printf("Informe a quantidade de numeros que será inserido:");
+        System.out.printf("Informe a quantidade de números que será inserido:");
         qntN = input.nextInt();
 
         while (cont <= qntN) {
-            System.out.printf("Informe o %dº numero:", cont);
+            System.out.printf("Informe o %dº número:", cont);
             N = input.nextDouble();
 
             // Processamento

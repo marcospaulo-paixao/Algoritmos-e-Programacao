@@ -22,7 +22,7 @@ public class Exercicio10 {
 
         // Entrada
         while (!sair) {
-            System.out.printf("Informe um numero inteiro positivo: ");
+            System.out.printf("Informe um número inteiro positivo: ");
             numero = input.nextInt();
 
             // Processamento
@@ -36,7 +36,7 @@ public class Exercicio10 {
 
         }
         // Saida
-        System.out.printf("Foram digitados %d numeros.\n", qntNumeros);
+        System.out.printf("Foram digitados %d números.\n", qntNumeros);
 
     }
 }

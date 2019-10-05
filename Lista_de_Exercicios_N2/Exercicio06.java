@@ -21,12 +21,12 @@ public class Exercicio06 {
         long fator = 1;
 
         // Entrada
-        System.out.printf("Informe um numero: ");
+        System.out.printf("Informe um número: ");
         numero = entrada.nextInt();
 
         //Processamento
         if (numero < 0) {
-            System.out.printf("Numero não pode ser fatorado!\n");
+            System.out.printf("Número não pode ser fatorado!\n");
         } else {
             multiplicador = numero;
             while (multiplicador >= 1) {

@@ -22,7 +22,7 @@ public class Exercicio13 {
 
         // Entrada
         while (!sair) {
-            System.out.printf("Informe um numero de 1 a 5: ");
+            System.out.printf("Informe um número de 1 a 5: ");
             numero = input.nextFloat();
 
             // Processamento
