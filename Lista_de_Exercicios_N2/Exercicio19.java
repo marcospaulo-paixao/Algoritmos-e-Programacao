@@ -45,7 +45,7 @@ public class Exercicio19 {
                 System.out.printf("Informe a Nota 1: ");
                 nota1 = input.nextDouble();
 
-                // Saida: Nota1 invalida
+                // Saida: Nota 1 invalida
                 if (nota1 < 0 || nota1 > 10) {
                     System.out.printf("Erro: Nota 1 invalida!\n\n");
                 } else {
