@@ -5,6 +5,7 @@
  * ALUNO:.Anisberto dos Reis do Nascimento
  * Lista de Exercícios – N2
  *
+
  *  32. O Departamento de Trânsito do Estado de São Paulo compilou dados de acidentes de
  * tráfego no Estado no último ano. Para cada motorista envolvido num acidente, uma
  * entrada de dados foi preparada com as seguintes informações:

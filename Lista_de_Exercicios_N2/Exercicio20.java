@@ -49,14 +49,13 @@ public class Exercicio20 {
 
                 // Valida: Senha
             } else {
-                System.out.printf("    SISTEMA\n");
 
                 System.out.printf("Digite a Senha: ");
                 confSenha = input.nextInt();
 
                 // Saida: Senha Incorreta
                 if (confSenha != senha) {
-                    System.out.printf("\nSENHA INCORRETA\n");
+                    System.out.printf("\nSENHA INCORRETA, TENTE NOVAMENTE\n\n");
 
                     // Saida: Senha Correta
                 } else {
