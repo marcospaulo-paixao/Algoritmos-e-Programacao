@@ -39,7 +39,7 @@ public class Exercicio14 {
                 sair = true;
             } else {
                 if (idade < 0) {
-                    System.out.printf("Erro: Idade invalida!\n");
+                    System.out.printf("Erro: Idade inválida!\n");
 
                 } else {
 

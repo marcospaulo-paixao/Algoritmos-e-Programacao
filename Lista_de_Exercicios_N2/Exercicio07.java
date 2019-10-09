@@ -46,11 +46,11 @@ public class Exercicio07 {
                 } else if (resposta.equalsIgnoreCase("s")) {
                     break;
                 } else {
-                    System.out.println("\nOpção invalida\n");
+                    System.out.println("\nOpção inválida\n");
 
                 }
             } else {
-                System.out.println("\nOpção invalida\n");
+                System.out.println("\nOpção inválida\n");
             }
         }
 

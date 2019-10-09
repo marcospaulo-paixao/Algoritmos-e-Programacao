@@ -29,7 +29,7 @@ public class Exercicio15 {
             numero = input.nextInt();
             if (numero < 0) {
                 qntNumeros--;
-                System.out.printf("O número digitado é invalido!!!\n");
+                System.out.printf("O número digitado é inválido!!!\n");
             } else if (numero == 0) {
                 qntNumeros--;
                 sair = true;

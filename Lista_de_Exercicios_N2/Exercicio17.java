@@ -34,7 +34,7 @@ public class Exercicio17 {
                 System.out.printf("%s, informe a nota 1:", nome);
                 nota1 = input.nextFloat();
                 if (nota1 < 0.0 || nota1 > 10) {
-                    System.out.printf("\nErro: Nota invalida! ");
+                    System.out.printf("\nErro: Nota inválida! ");
 
                 } else {
                     // Entrada Nota 2
@@ -42,7 +42,7 @@ public class Exercicio17 {
                         System.out.printf("%s, informe a nota 2:", nome);
                         nota2 = input.nextFloat();
                         if (nota2 < 0.0 || nota2 > 10) {
-                            System.out.printf("\nErro: Nota invalida! ");
+                            System.out.printf("\nErro: Nota inválida! ");
 
                         }
                     } while (nota2 < 0.0 || nota2 > 10);

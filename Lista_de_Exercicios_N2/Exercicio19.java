@@ -47,7 +47,7 @@ public class Exercicio19 {
 
                 // Saida: Nota 1 invalida
                 if (nota1 < 0 || nota1 > 10) {
-                    System.out.printf("Erro: Nota 1 invalida!\n\n");
+                    System.out.printf("Erro: Nota 1 inválida!\n\n");
                 } else {
                     sair = true;
                 }
@@ -63,7 +63,7 @@ public class Exercicio19 {
 
                 // Saida: Nota 2 invalida
                 if (nota2 < 0 || nota2 > 10) {
-                    System.out.printf("Erro: Nota 2 invalida!\n\n");
+                    System.out.printf("Erro: Nota 2 inválida!\n\n");
                 } else {
                     sair = true;
                 }

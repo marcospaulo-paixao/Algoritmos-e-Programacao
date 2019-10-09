@@ -18,7 +18,7 @@ public class Exercicio02 {
         // Variaveis
         Scanner entrada = new Scanner(System.in);
         String txt1 = "Informe a sua idade:";
-        String txt2 = "A idade Informada é Invalida!";
+        String txt2 = "A idade Informada é Inválida!";
         String txt3 = "pessoas tem até 18 anos.";
         String txt4 = "pessoas tem idade entre 18 e 65 anos.";
         String txt5 = "pessoas tem idade acima de 65 anos.";
