@@ -21,9 +21,7 @@ public class Exercicio43 {
         int[] vetorMaior = new int[10];
         int[] vetorMenor = new int[10];
         int elemento;
-        int j = 0;
-        int k = 0;
-
+        
         // Entrada: Elementos maiores e menores 
         for (int i = 0; i < 10; i++) {
             System.out.printf("Digite um numero para a posição %d: ", i + 1);
